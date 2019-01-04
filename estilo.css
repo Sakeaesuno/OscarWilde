@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* Maria Rocaull Garcia el 04/01/2019*/
+
+body{
+    background-color: #02F7FF;
+    font-family: sans-serif;
+}
+h1{
+    margin: 0;
+    color: #0B397E;
+    font-size: 4rem;
+    letter-spacing: 2rem;
+    text-align: center;
+    text-transform: uppercase
+}
+p{
+   float: left;
+   width: 17rem;
+   height: 17rem;   
+   overflow: auto;  
+   border: #0B397E 5px dashed;
+   margin: 10px;
+   padding: 10px;
+   background-color: #48CAC3;
+   font-size: 1.5rem;
+   font-style: oblique;
+}
+p::first-letter {
+    float: left;
+    color: #0B397E;
+    font-size: 5rem;
+    font-style: normal;
+}
